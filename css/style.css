@@ -1,0 +1,69 @@
+/* Variables - Theme */
+:root {
+  --bg-color: white;
+  --text-color: #333;
+  --subtext-color: #666;
+  --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --border-color: #e1e1e1;
+  --navbar-bg: rgba(255, 255, 255, 0.95);
+  --navbar-scroll-bg: rgba(255, 255, 255, 0.98);
+  --nav-link-color: #333;
+  --toggle-bar: #333;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --form-label-bg: white;
+  --card-bg: white;
+}
+
+body.dark {
+  --bg-color: #111111;
+  --text-color: #f0f0f0;
+  --subtext-color: #ccc;
+  --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --border-color: #444444;
+  --navbar-bg: rgba(34, 34, 34, 0.95);
+  --navbar-scroll-bg: rgba(34, 34, 34, 0.98);
+  --nav-link-color: #f0f0f0;
+  --toggle-bar: #f0f0f0;
+  --shadow-color: rgba(255, 255, 255, 0.1);
+  --form-label-bg: #222222;
+  --card-bg: #222222;
+}
+
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 30px;
+}
