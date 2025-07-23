@@ -73,15 +73,30 @@
 
           <div class="hero-buttons">
             <a href="#projects" class="btn btn-primary">View My Work</a>
-            <a href="#" class="btn btn-secondary">Download CV</a>
+            <a
+              href="assets/BahaaAbbasCV.pdf"
+              class="btn btn-secondary"
+              download=""
+              >Download CV</a
+            >
           </div>
 
           <div class="hero-social">
-            <a href="#" class="social-link" aria-label="GitHub">
+            <a
+              href="https://github.com/BahaaAbbas"
+              target="_blank"
+              class="social-link"
+              aria-label="GitHub"
+            >
               <i class="fab fa-github"></i>
             </a>
 
-            <a href="#" class="social-link" aria-label="LinkedIn">
+            <a
+              href="https://www.linkedin.com/in/bahaaabbas/"
+              target="_blank"
+              class="social-link"
+              aria-label="LinkedIn"
+            >
               <i class="fab fa-linkedin-in"></i>
             </a>
 
@@ -99,6 +114,124 @@
           <div class="hero-image-container">
             <img src="assets/heroImg.jpeg" alt="Bahaa Abbas" />
             <div class="hero-image-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Get to know me better</p>
+        </div>
+
+        <div class="about-content">
+          <div class="about-text">
+            <h3>
+              Full Stack Developer with a passion for creating exceptional
+              digital experiences
+            </h3>
+            <p>
+              With over a year of experience in web development, I build modern,
+              responsive full stack applications using both frontend and backend
+              technologies.
+            </p>
+            <p>
+              I'm passionate about clean code, innovative design, and continuous
+              learning. Outside of coding, I explore design trends, contribute
+              to open source, and share knowledge through writing and mentoring.
+            </p>
+            <div class="about-stats">
+              <div class="stat">
+                <h4>10+</h4>
+                <p>Projects Completed</p>
+              </div>
+              <div class="stat">
+                <h4>1+</h4>
+                <p>Years Experience</p>
+              </div>
+              <div class="stat">
+                <h4>5+</h4>
+                <p>Happy Clients</p>
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <img
+              src="assets/aboutImg.jpg"
+              alt="Working on laptop"
+              height="400px"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Skills & Technologies</h2>
+          <p class="section-subtitle">Technologies I love working with</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-html5"></i>
+            </div>
+            <h3>HTML5</h3>
+            <p>Semantic markup and modern HTML standards</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-css3-alt"></i>
+            </div>
+            <h3>CSS3</h3>
+            <p>Advanced styling, animations, and responsive design</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-js-square"></i>
+            </div>
+            <h3>JavaScript</h3>
+            <p>ES6+, DOM manipulation, and modern frameworks</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-react"></i>
+            </div>
+            <h3>React</h3>
+            <p>Component-based architecture and state management</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-node-js"></i>
+            </div>
+            <h3>Node.js</h3>
+            <p>Server-side JavaScript and API development</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <h3>Databases</h3>
+            <p>MongoDB, PostgreSQL, and database design</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-figma"></i>
+            </div>
+            <h3>UI/UX Design</h3>
+            <p>User interface design and user experience</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-git-alt"></i>
+            </div>
+            <h3>Version Control</h3>
+            <p>Git, GitHub, and collaborative development</p>
           </div>
         </div>
       </div>
@@ -149,7 +282,11 @@
             </div>
           </div>
 
-          <form class="contact-form">
+          <form
+            class="contact-form"
+            onsubmit="event.preventDefault();  this.reset();"
+            method="post"
+          >
             <div class="form-group">
               <input type="text" id="name" name="name" required />
               <label for="name">Your Name</label>
@@ -189,10 +326,21 @@
           </div>
 
           <div class="footer-social">
-            <a href="#" class="social-link" aria-label="GitHub">
+            <a
+              href="https://github.com/BahaaAbbas"
+              target="_blank"
+              class="social-link"
+              aria-label="GitHub"
+            >
               <i class="fab fa-github"></i>
             </a>
-            <a href="#" class="social-link" aria-label="LinkedIn">
+
+            <a
+              href="https://www.linkedin.com/in/bahaaabbas/"
+              target="_blank"
+              class="social-link"
+              aria-label="LinkedIn"
+            >
               <i class="fab fa-linkedin-in"></i>
             </a>
             <a href="#" class="social-link" aria-label="Twitter">
