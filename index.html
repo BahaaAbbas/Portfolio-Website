@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Bahaa Abbas" />
+    <title>Bahaa Portfolio</title>
+    <link rel="icon" href="assets/PortfolioIcon.png" type="image/png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Nav -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <h2>Bahaa Abbas</h2>
+        </div>
+
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+
+          <li class="nav-item theme-toggle" id="theme-toggle">
+            <i class="fas fa-moon"></i>
+          </li>
+        </ul>
+
+        <div class="nav-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            <span class="hero-greeting">Hello, I'm</span>
+            <span class="hero-name">Bahaa Abbas</span>
+          </h1>
+          <p class="hero-subtitle">Full Stack Developer</p>
+          <p class="hero-description">
+            I create beautiful, responsive web applications with modern
+            technologies and thoughtful design principles.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a
+              href="assets/BahaaAbbasCV.pdf"
+              class="btn btn-secondary"
+              download=""
+              >Download CV</a
+            >
+          </div>
+
+          <div class="hero-social">
+            <a
+              href="https://github.com/BahaaAbbas"
+              target="_blank"
+              class="social-link"
+              aria-label="GitHub"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/bahaaabbas/"
+              target="_blank"
+              class="social-link"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+
+            <a href="#" class="social-link" aria-label="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+
+            <a href="#" class="social-link" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <div class="hero-image-container">
+            <img src="assets/heroImg.jpeg" alt="Bahaa Abbas" />
+            <div class="hero-image-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Get to know me better</p>
+        </div>
+
+        <div class="about-content">
+          <div class="about-text">
+            <h3>
+              Full Stack Developer with a passion for creating exceptional
+              digital experiences
+            </h3>
+            <p>
+              With over a year of experience in web development, I build modern,
+              responsive full stack applications using both frontend and backend
+              technologies.
+            </p>
+            <p>
+              I'm passionate about clean code, innovative design, and continuous
+              learning. Outside of coding, I explore design trends, contribute
+              to open source, and share knowledge through writing and mentoring.
+            </p>
+            <div class="about-stats">
+              <div class="stat">
+                <h4>10+</h4>
+                <p>Projects Completed</p>
+              </div>
+              <div class="stat">
+                <h4>1+</h4>
+                <p>Years Experience</p>
+              </div>
+              <div class="stat">
+                <h4>5+</h4>
+                <p>Happy Clients</p>
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <img
+              src="assets/aboutImg.jpg"
+              alt="Working on laptop"
+              height="400px"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Skills & Technologies</h2>
+          <p class="section-subtitle">Technologies I love working with</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-html5"></i>
+            </div>
+            <h3>HTML5</h3>
+            <p>Semantic markup and modern HTML standards</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-css3-alt"></i>
+            </div>
+            <h3>CSS3</h3>
+            <p>Advanced styling, animations, and responsive design</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-js-square"></i>
+            </div>
+            <h3>JavaScript</h3>
+            <p>ES6+, DOM manipulation, and modern frameworks</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-react"></i>
+            </div>
+            <h3>React</h3>
+            <p>Component-based architecture and state management</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-node-js"></i>
+            </div>
+            <h3>Node.js</h3>
+            <p>Server-side JavaScript and API development</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <h3>Databases</h3>
+            <p>MongoDB, PostgreSQL, and database design</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-figma"></i>
+            </div>
+            <h3>UI/UX Design</h3>
+            <p>User interface design and user experience</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-git-alt"></i>
+            </div>
+            <h3>Version Control</h3>
+            <p>Git, GitHub, and collaborative development</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Project -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Some of my recent work</p>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="assets/Bahaastockjournal.png" alt="BahaaStockJournal" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://github.com/BahaaAbbas/BahaaStockJournal"
+                    target="_blank"
+                    class="project-link"
+                    aria-label="View Code"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>BahaaStockJournal</h3>
+              <p>
+                A full-stack trading journal designed for active traders who
+                want to track and improve their performance over time.
+              </p>
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">MongoDB</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">JWT</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="assets/Ecommerce.jpeg" alt="E-commerce Website" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://github.com/BahaaAbbas/E-Commerce"
+                    target="_blank"
+                    class="project-link"
+                    aria-label="View Code"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>E-commerce Website</h3>
+              <p>
+                A full-stack e-commerce solution with React, Node.js, and
+                MongoDB. Features include user authentication, payment
+                processing, and admin dashboard.
+              </p>
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">MongoDB</span>
+                <span class="tag">Stripe</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="assets/PersonalFinanceDashboard.PNG"
+                alt="Personal Finance Dashboard"
+              />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://github.com/BahaaAbbas/BahaaFinanceDashboardProject"
+                    target="_blank"
+                    class="project-link"
+                    aria-label="View Code"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Personal Finance Dashboard</h3>
+              <p>
+                A a sleek and easy-to-use React application designed to help you
+                take control of your finances.
+              </p>
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Context Api</span>
+                <span class="tag">Tailwind CSS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">
+            Let's work together on your next project
+          </p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Let's create something amazing together</h3>
+            <p>
+              I'm always interested in new opportunities and exciting projects.
+              Whether you're a company looking to hire, or you're a client who
+              has a project in mind, I'd love to hear from you.
+            </p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h4>Email</h4>
+                  <p>bahaaisl566@gmail.com</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h4>Phone</h4>
+                  <p>+972569794577</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h4>Location</h4>
+                  <p>Arraba, Jenin</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <form
+            class="contact-form"
+            onsubmit="event.preventDefault();  this.reset();"
+            method="post"
+          >
+            <div class="form-group">
+              <input type="text" id="name" name="name" required />
+              <label for="name">Your Name</label>
+            </div>
+
+            <div class="form-group">
+              <input type="email" id="email" name="email" required />
+              <label for="email">Your Email</label>
+            </div>
+
+            <div class="form-group">
+              <input type="text" id="subject" name="subject" required />
+              <label for="name">Subject</label>
+            </div>
+
+            <div class="form-group">
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+              <label for="message">Your Message</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-text">
+            <p>&copy; 2025 Bahaa Abbas. All rights reserved.</p>
+          </div>
+
+          <div class="footer-social">
+            <a
+              href="https://github.com/BahaaAbbas"
+              target="_blank"
+              class="social-link"
+              aria-label="GitHub"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/bahaaabbas/"
+              target="_blank"
+              class="social-link"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
